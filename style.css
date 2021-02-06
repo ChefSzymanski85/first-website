@@ -1,0 +1,57 @@
+body { /* Make the empty space on the page black */
+  background-color: black;
+}
+
+header { /*Changing header to contrast with body color and changing font*/
+  font-family: "copperplate gothic bold", "copperplate gothic", arial;
+  text-align: center;
+  background-color: #36486b;
+  margin: 0px 30px;
+
+}
+
+h1 { /* Changing text of headers*/
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+img { /* Centering photo. There may be an easier way to do this.*/
+  padding: 0px 100px;
+}
+
+main, footer { /* Changing both the main and footer attributes, since they should be the same */
+  background-color:  #8ca3a3;
+  /*text-align: center;*/
+  font-family: georgia, "trebuchet ms", arial;
+  padding: 30px 400px;
+  margin: 0px 30px;
+}
+
+ol { /*Same as img modification*/
+  padding-left: 250px;
+
+}
+
+hr { /*Styling the horizontal rule*/
+  height: 10px;
+  background-color: #36486b;
+}
+
+/* Changing the link color */
+a:link {color: white;}
+a:visited {color: black;}
+a:hover {color: #8ca3a3}
+
+footer { /* Make footer background same as header. Could move this around.*/
+  background-color: #36486b;
+  margin: 30px 30px;
+}
