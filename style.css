@@ -1,16 +1,9 @@
-body { /* Make the empty space on the page black */
+/* --------------------- Content styling --------------------- */
+body {
   background-color: black;
 }
 
-header { /*Changing header to contrast with body color and changing font*/
-  font-family: "copperplate gothic bold", "copperplate gothic", arial;
-  text-align: center;
-  background-color: #36486b;
-  margin: 0px 30px;
-
-}
-
-h1 { /* Changing text of headers*/
+h1 {
   font-size: 50px;
   text-align: center;
 }
@@ -24,34 +17,45 @@ h3 {
   text-align: center;
 }
 
-img { /* Centering photo. There may be an easier way to do this.*/
-  padding: 0px 100px;
+ol {
+  padding-left: 250px;
+
 }
 
-main, footer { /* Changing both the main and footer attributes, since they should be the same */
+hr {
+  height: 10px;
+  background-color: #36486b;
+}
+
+header {
+  font-family: "copperplate gothic bold", "copperplate gothic", arial;
+  text-align: center;
+  background-color: #36486b;
+  color: white;
+  margin: 0px 30px;
+}
+
+main, footer {
   background-color:  #8ca3a3;
-  /*text-align: center;*/
   font-family: georgia, "trebuchet ms", arial;
   padding: 30px 400px;
   margin: 0px 30px;
 }
 
-ol { /*Same as img modification*/
-  padding-left: 250px;
-
-}
-
-hr { /*Styling the horizontal rule*/
-  height: 10px;
-  background-color: #36486b;
-}
-
-/* Changing the link color */
-a:link {color: white;}
-a:visited {color: black;}
-a:hover {color: #8ca3a3}
-
-footer { /* Make footer background same as header. Could move this around.*/
+footer { /* TODO: Clean up footer and main styles*/
+  color: white;
   background-color: #36486b;
   margin: 30px 30px;
 }
+
+
+/* --------------------- Image Styling --------------------- */
+img { /* TODO: See if there's an easier way to center photo*/
+  padding: 0px 100px;
+}
+
+
+/* --------------------- Link Styling --------------------- */
+a:link {color: white;}
+a:visited {color: black;}
+a:hover {color: #8ca3a3}
